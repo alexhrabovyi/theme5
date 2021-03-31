@@ -1,0 +1,134 @@
+@font-face {
+    font-family: TrebuchetMS-Bold;
+    src: url("../fonts/TrebuchetMS-Bold.ttf");
+}
+
+@font-face {
+    font-family: TrebuchetMS;
+    src: url("../fonts/TrebuchetMS.ttf");
+}
+
+* {
+    margin: 0;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(59, 63, 69);
+    font-family: TrebuchetMS;
+}
+
+header {
+    background-color: rgb(74, 79, 86);
+    color: rgb(235, 126, 127);
+}
+
+h1 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: TrebuchetMS-Bold;
+}
+
+p {
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    font-size: 17pt;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: rgb(136, 131, 158);
+    font-size: 18pt;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(136, 131, 158);
+    border-width: 4px;
+}
+
+li:nth-child(even) {
+    background-color: rgb(112, 117, 147);
+    border-color: rgb(112, 117, 147);
+}
+
+li:hover {
+    background-color: rgb(98, 94, 119);
+    border-color: rgb(255, 255, 255) rgb(98, 94, 119);
+}
+
+
+
+li:active {
+    background-color: rgb(235, 126, 127);
+}
+
+[value] {
+    font-family: TrebuchetMS;
+    color: rgb(235, 126, 127);
+    font-size: 18pt;
+    background-color: rgb(74, 79, 86);
+    padding: 20px 276px;
+    margin: 40px;
+    border-style: solid;
+    border-color: rgb(74, 79, 86);
+    border-width: 4px;
+}
+
+#checkbox_1 + span:after {
+    content: " ( for the next lessons about CSS )";
+    color: rgb(192, 200, 209);
+    font-size: 12pt;
+
+}
+
+#checkbox_2 + span:after {
+    content: " ( for more CSS manipulation )";
+    color: rgb(192, 200, 209);
+    font-size: 12pt;
+}
+
+#checkbox_3 + span:after {
+    content: " ( because they are awesome )";
+    color: rgb(192, 200, 209);
+    font-size: 12pt;
+}
+
+#checkbox_4 + span:after {
+    content: " ( hm... they always disappear )";
+    color: rgb(192, 200, 209);
+    font-size: 12pt;
+}
+
+#checkbox_6 + span:after {
+    content: " ( for my friends )";
+    color: rgb(192, 200, 209);
+    font-size: 12pt;
+}
+
+[value]:hover {
+    background-color: rgb(136, 131, 158);
+    border-color: rgb(255, 255, 255) rgb(136, 131, 158);
+}
+
+[value]:active {
+    background-color: rgb(98, 94, 119);
+}
+
+[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: rgb(163, 160, 181);
+}

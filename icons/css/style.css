@@ -1,0 +1,83 @@
+@font-face {
+    font-family: ProximaNova-Regular;
+    src: url("../fonts/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+    font-family: ProximaNova-Light;
+    src: url("../fonts/ProximaNova-Light.ttf")
+}
+
+main {
+    text-align: center;
+}
+
+#img1{
+    display: inline-block;
+    background-image: url("../img/tel_blue.png");
+    width: 67px;
+    height: 65px;
+    background-repeat: no-repeat;
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+
+#img1:hover {
+    background-image: url("../img/tel_white.png");
+}
+
+#img2 {
+    display: inline-block;
+    background-image: url("../img/options_blue.png");
+    width: 67px;
+    height: 65px;
+    background-repeat: no-repeat;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    margin-right: 254px;
+    margin-left: 254px;
+}
+
+#img2:hover {
+    background-image: url("../img/options_white.png");
+}
+
+#img3{
+    display: inline-block;
+    background-image: url("../img/speed_blue.png");
+    width: 67px;
+    height: 65px;
+    background-repeat: no-repeat;
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+
+#img3:hover {
+    background-image: url("../img/speed_white.png");
+}
+
+.caption {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16pt;
+    font-family: ProximaNova-Regular;
+}
+
+.caption:nth-child(2) {
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-bottom: 22px;
+}
+
+.text {
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 12pt;
+    color: rgb(157, 157, 157);
+    font-family: ProximaNova-Light;
+}
+
+.text:nth-child(2) {
+    margin-left: 95px;
+    margin-right: 95px;
+}

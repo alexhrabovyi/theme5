@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "TrebuchetMS-Bold";
+    src: url("../../shopping_list/fonts/TrebuchetMS-Bold.ttf")
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../img/background.png);
+    text-align: center;
+}
+
+nav {
+    margin-top: 400px;
+}
+
+a:first-child {
+    margin-right: 850px;
+}
+
+a {
+    background-color: rgb(228, 142, 15);
+    padding: 40px 80px;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0);
+}
+
+a:hover {
+    background-color: rgb(247, 255, 130);
+    border-color: rgb(250, 187, 71);
+}
+
+a:active {
+    background-color: rgb(184, 172, 64);
+}
+
+p {
+    margin-top: 200px;
+    font-family: TrebuchetMS-Bold;
+    font-size: 50pt;
+    color: rgb(228, 142, 15);
+    font-weight: bold;
+}
